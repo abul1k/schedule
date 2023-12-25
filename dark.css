@@ -1,0 +1,38 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #181a1b;
+  color: #e8e6e3;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  border: 1px solid #3a3e41;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #1f2223;
+}
+
+td {
+  height: 60px;
+}
+
+.day-column {
+  width: 30px;
+  text-align: left;
+  background: #1f2223;
+}
